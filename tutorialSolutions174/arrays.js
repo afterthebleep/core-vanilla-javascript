@@ -13,10 +13,10 @@ shoppingCart.push("Banana");
 // what's in fruits?
 alert( fruits.length ); // ? */
 
-let fruits = ["Apples", "Pear", "Orange"];
-let shoppingCart = fruits; // puts fruits array into a new box
-shoppingCart.push("Banana"); // adds "Banana" to array
-alert( fruits.length ); // Gives length of the array which is 4
+    let fruits = ["Apples", "Pear", "Orange"];
+    let shoppingCart = fruits; // puts fruits array into a new box
+    shoppingCart.push("Banana"); // adds "Banana" to array
+    alert( fruits.length ); // Gives length of the array which is 4
 
 [X] /* Array operations.
 Let’s try 5 array operations.
@@ -34,11 +34,11 @@ Jazz, Classics, Rock-n-Roll
 Classics, Rock-n-Roll
 Rap, Reggie, Classics, Rock-n-Roll */
 
-let styles = ["Jazz", "Blues"];
-styles.push("Rock-n-Roll");
-styles[(styles.length + 1) / 2 = "Classics";
-alert( styles.shift( ) );
-styles.unshift("Rap, "Reggie); // pretty cool :)
+    let styles = ["Jazz", "Blues"];
+    styles.push("Rock-n-Roll");
+    styles[(styles.length + 1) / 2 = "Classics";
+    alert( styles.shift( ) );
+    styles.unshift("Rap, "Reggie); // pretty cool :)
 
 [X] /* Calling in an array context
 What is the result? Why?
@@ -50,11 +50,11 @@ arr.push(function() {
 })
 arr[2](); // ? */
 
-let arr = ["a", "b"];
-arr.push(function() { // Appends function to end of array
-  alert( this );
-})
-arr[2](); // will print "a","b",function
+    let arr = ["a", "b"];
+      arr.push(function() { // Appends function to end of array
+      alert( this );
+    })
+      arr[2](); // will print "a","b",function
 
 [X] /* Sum input numbers
 Write the function sumInput() that:
@@ -65,20 +65,20 @@ Calculates and returns the sum of array items.
 P.S. A zero 0 is a valid number, please don’t stop the input on zero.
 */
 
-function sumInput() {
-  let numbers = []
-  while (true) {
-    let value = prompt("Please enter a number", 0);
-        if (value === "" || vale === null || !isFinite(value)) break;
+    function sumInput() {
+      let numbers = []
+        while (true) {
+          let value = prompt("Please enter a number", 0);
+            if (value === "" || vale === null || !isFinite(value)) break;
 
-        numbers.push(+value);
-      }
-      let sum = 0;
-        for (let number of numbers) {
-          sum += number;
+            numbers.push(+value);
         }
-      }
-      alert( sumInput() );
+          let sum = 0;
+            for (let number of numbers) {
+              sum += number;
+            }
+    }
+          alert( sumInput() );
 
 
 [X] >>>LETS TALK ABOUT THIS ONE PLEASE O(n2)<<< /* A maximal subarray
@@ -98,22 +98,22 @@ getMaxSubSum([100, -9, 2, -3, 5]) = 100
 getMaxSubSum([1, 2, 3]) = 6 (take all)
 */
 
-function getMaxSubSum(arr) {
-  let maxSum = 0;
-  let partialSum = 0;
+    function getMaxSubSum(arr) {
+      let maxSum = 0;
+      let partialSum = 0;
 
-  for (let item of arr; i++) { // for each item of arr
-    partialSum += item; // add it to partialSum
-    maxSum = Math.max(maxSum, partialSum); // remember the maximum
-    if (partialSum < 0) partialSum = 0; // zero if negative
-  }
+      for (let item of arr; i++) {
+        partialSum += item;
+        maxSum = Math.max(maxSum, partialSum);
+        if (partialSum < 0) partialSum = 0;
+      }
 
-  return maxSum;
-}
+      return maxSum;
+    }
 
-alert( getMaxSubSum([-1, 2, 3, -9]) ); // 5
-alert( getMaxSubSum([-1, 2, 3, -9, 11]) ); // 11
-alert( getMaxSubSum([-2, -1, 1, 2]) ); // 3
-alert( getMaxSubSum([100, -9, 2, -3, 5]) ); // 100
-alert( getMaxSubSum([1, 2, 3]) ); // 6
-alert( getMaxSubSum([-1, -2, -3]) ); // 0
+    alert( getMaxSubSum([-1, 2, 3, -9]) );
+    alert( getMaxSubSum([-1, 2, 3, -9, 11]) );
+    alert( getMaxSubSum([-2, -1, 1, 2]) );
+    alert( getMaxSubSum([100, -9, 2, -3, 5]) );
+    alert( getMaxSubSum([1, 2, 3]) );
+    alert( getMaxSubSum([-1, -2, -3]) );

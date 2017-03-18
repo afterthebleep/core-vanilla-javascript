@@ -1,4 +1,4 @@
-#Team Name #hateful-hedgehog @aishao
+s#teamName #hateful-hedgehog @aishao test
 # Core Vanilla JavaScript #174
 
 This repo contains resources, challenges and plans for learning the basics of Javascripts.
@@ -37,11 +37,11 @@ Your objectives for the day is to achieve:
 
 ### Stretch
 
-- [ ] Skim [You don't know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/ch1.md#practice) and complete the final challenge
-- [ ] Watch and complete the [Front End Masters Javascript Introduction](https://frontendmasters.com/courses/javascript-basics/) (2 hours)
+- [] Skim [You don't know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/ch1.md#practice) and complete the final challenge
+- [X] Watch and complete the [Front End Masters Javascript Introduction](https://frontendmasters.com/courses/javascript-basics/) (2 hours)
 - [ ] Watch the bootcamp videos in the [Core Vanilla Javascript](https://shereef.wistia.com/projects/fwy60ilf20) section
-- [ ] Read Chapters 1,2,3 of [Eloquent Javascript][el]
-- [ ] Complete [CodeCademy's Learn Javasript](https://www.codecademy.com/learn/javascript)
+- [] Read Chapters 1,2,3 of [Eloquent Javascript][el]
+- [X] Complete [CodeCademy's Learn Javasript](https://www.codecademy.com/learn/javascript)
 
 
 ## Day 2: Arrays, Objects, and lots of Practice
@@ -85,18 +85,18 @@ Today you objectives are to put in practice the concepts you learned yesterday. 
 
 ### Stretch
 
-- [ ] Complete [Free Code Camp Basic Javascript](https://www.freecodecamp.com/map-aside#nested-collapseBasicJavaScript)
-- [ ] Read [Javascript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
-- [ ] Watch the first 11 [Fundamentals Videos](https://channel9.msdn.com/Series/JavaScript-Fundamentals-Development-for-Absolute-Beginners)
-- [ ] Read pages 173 to 184 in [Professional JS for Web Developers][projs]
-- [ ] Signup for a free Team Treehouse trial and complete their [Object Oriented Javascript Course] (https://teamtreehouse.com/library/objectoriented-javascript)
-- [ ] Skim this [cheat sheet][cheat]
+- [x] Complete [Free Code Camp Basic Javascript](https://www.freecodecamp.com/map-aside#nested-collapseBasicJavaScript)
+- [X] Read [Javascript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
+- [4] Watch the first 11 [Fundamentals Videos](https://channel9.msdn.com/Series/JavaScript-Fundamentals-Development-for-Absolute-Beginners)
+- [X] Read pages 173 to 184 in [Professional JS for Web Developers][projects]
+- [X] Signup for a free Team Treehouse trial and complete their [Object Oriented Javascript Course] (https://teamtreehouse.com/library/objectoriented-javascript)
+- [X] Skim this [cheat sheet][cheat]
 
 ## Day 3: Koans and Drills
 
 Let's test our understanding by working on some Koans.
 
-*Note: It's pretty easy to make these test pass. What isn't easy is to make sure you undertand WHY they are passing, and don't move on to the next one until you do*
+*Note: It's pretty easy to make these test pass. What isn't easy is to make sure you understand WHY they are passing, and don't move on to the next one until you do*
 
 *Remember: Update this file, and commit your repo, and push to github after every step*
 
